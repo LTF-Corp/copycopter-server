@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.3.0'
 
 gem 'dynamic_form'
-gem 'flutie'
+# gem 'flutie'
 gem 'bourbon'
 gem 'formtastic'
 gem 'htmldiff'
