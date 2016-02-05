@@ -1,19 +1,20 @@
-source :rubygems
+source 'https://rubygems.org'
+ruby '2.3.0'
 
-gem 'dynamic_form', '1.1.4'
-gem 'flutie', '1.3.3'
-gem 'bourbon', '2.1.0'
-gem 'formtastic', '2.0.2'
-gem 'htmldiff', '0.0.1'
-gem 'pg', '0.13.2'
-gem 'rails', '3.2.6'
-gem 'thin', '1.3.1'
-gem 'yajl-ruby', '1.1.0', :require => 'yajl'
-gem "jquery-rails", "1.0.19"
+gem 'dynamic_form'
+gem 'flutie'
+gem 'bourbon'
+gem 'formtastic'
+gem 'htmldiff'
+gem 'pg'
+gem 'rails'
+gem 'thin'
+gem 'yajl-ruby', :require => 'yajl'
+gem "jquery-rails"
 
 group :assets do
-  gem 'sass-rails', "~> 3.2.5"
-  gem 'coffee-rails', "~> 3.2.1"
+  gem 'sass-rails'
+  gem 'coffee-rails'
   gem 'uglifier'
   gem "yui-compressor"
 end
